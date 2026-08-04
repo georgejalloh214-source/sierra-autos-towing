@@ -17,6 +17,42 @@
     <meta property="og:image" content="assets/Gemini_Generated_Image_7lmt1g7lmt1g7lmt.png">
     <meta property="og:type" content="website">
 
+    <!-- LocalBusiness Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Sierra Autos Towing",
+      "image": "https://georgejalloh214-source.github.io/sierra-autos-towing/assets/Gemini_Generated_Image_7lmt1g7lmt1g7lmt.png",
+      "telephone": "+1-972-948-7684",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Dallas",
+        "addressLocality": "Dallas",
+        "addressRegion": "TX",
+        "postalCode": "75201",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        "Dallas",
+        "Mesquite",
+        "Garland",
+        "Richardson",
+        "Plano",
+        "DFW Metro"
+      ],
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }],
+      "url": "https://georgejalloh214-source.github.io/sierra-autos-towing"
+    }
+    </script>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,7 +60,10 @@
 
     <!-- NAVIGATION -->
     <nav class="navbar">
-        <div class="nav-logo">SIERRA AUTOS</div>
+        <div class="nav-logo">
+            <span class="logo-icon">⛓️</span>
+            <span class="logo-text">SIERRA AUTOS</span>
+        </div>
         <ul class="nav-links">
             <li><a href="#services">Services</a></li>
             <li><a href="#about">About</a></li>
@@ -37,13 +76,22 @@
 
     <!-- HERO -->
     <header class="hero">
-        <h1>Sierra Autos Towing — Dallas, TX</h1>
-        <h2>Fast • Reliable • 24/7 Towing</h2>
-        <p>Serving Dallas, Mesquite, Garland, Richardson, Plano and the entire DFW metro area with professional towing and roadside assistance.</p>
+        <div class="hero-inner">
+            <div class="hero-text">
+                <h1>Sierra Autos Towing — Dallas, TX</h1>
+                <h2>Fast • Reliable • 24/7 Towing & Roadside Assistance</h2>
+                <p>Serving Dallas, Mesquite, Garland, Richardson, Plano and the entire DFW metro area with professional towing and roadside assistance.</p>
 
-        <div class="contact-buttons">
-            <a href="tel:9729487684" class="btn">Call: 972‑948‑7684</a>
-            <a href="mailto:Sierraauto@yahoo.com" class="btn secondary">Email Us</a>
+                <div class="contact-buttons">
+                    <a href="tel:9729487684" class="btn">Call: 972‑948‑7684</a>
+                    <a href="mailto:Sierraauto@yahoo.com" class="btn secondary">Email Us</a>
+                    <a href="sms:+19729487684?body=Hi%20Sierra%20Autos%2C%20I%20need%20towing%20help." class="btn sms-btn">Text Us</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="assets/Gemini_Generated_Image_7lmt1g7lmt1g7lmt.png" alt="Sierra Autos Tow Truck">
+            </div>
         </div>
     </header>
 
@@ -107,6 +155,37 @@
         </div>
     </section>
 
+    <!-- GOOGLE MAPS -->
+    <section class="map-section">
+        <h2>Service Area — Dallas & DFW Metro</h2>
+        <p>We’re based in Dallas and serve the entire DFW metro area.</p>
+        <div class="map-container">
+            <!-- Replace src with your exact business location embed from Google Maps -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.002!2d-96.796987!3d32.776664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1700000000000"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- GOOGLE REVIEWS WIDGET (PLACEHOLDER) -->
+    <section class="reviews-section">
+        <h2>What Our Customers Say</h2>
+        <p>Real reviews from drivers we’ve helped on the road.</p>
+        <div class="reviews-widget">
+            <!-- 
+              Embed your Google Reviews widget here from a provider like Elfsight, EmbedSocial, etc.
+              Example: paste the script tag they give you inside this div.
+            -->
+            <p>Google Reviews widget coming soon.</p>
+        </div>
+    </section>
+
     <!-- CONTACT -->
     <section id="contact" class="contact">
         <h2>Need a Tow Truck in Dallas Right Now?</h2>
@@ -114,6 +193,7 @@
 
         <div class="contact-buttons">
             <a href="tel:9729487684" class="btn">Call: 972‑948‑7684</a>
+            <a href="sms:+19729487684?body=Hi%20Sierra%20Autos%2C%20I%20need%20towing%20help." class="btn sms-btn">Text: 972‑948‑7684</a>
             <a href="mailto:Sierraauto@yahoo.com" class="btn secondary">Email: Sierraauto@yahoo.com</a>
         </div>
     </section>
