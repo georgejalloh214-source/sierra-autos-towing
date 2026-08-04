@@ -34,12 +34,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: var(--white);
     flex-wrap: wrap;
 }
 
 .nav-logo {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -121,16 +120,6 @@ body {
 
 .btn.secondary {
     background: var(--blue);
-}
-
-/* MOBILE HERO */
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 32px;
-    }
-    .hero h2 {
-        font-size: 20px;
-    }
 }
 
 /* ============================
@@ -222,9 +211,17 @@ section h2 {
 .gallery-item {
     width: 280px;
     height: 180px;
-    background: var(--white);
     border-radius: 10px;
+    overflow: hidden;
     box-shadow: 0 0 20px var(--green);
+    background: var(--white);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 /* ============================
@@ -244,24 +241,4 @@ footer {
     background: var(--blue);
     color: var(--white);
     font-size: 14px;
-}
-
-/* ============================
-   MOBILE RESPONSIVE FIXES
-   ============================ */
-@media (max-width: 768px) {
-    .services li,
-    .why li {
-        width: 100%;
-    }
-
-    .gallery-item {
-        width: 90%;
-        height: 160px;
-    }
-
-    .btn {
-        width: 90%;
-        padding: 14px;
-    }
 }
