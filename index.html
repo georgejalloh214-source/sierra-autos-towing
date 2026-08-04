@@ -7,13 +7,13 @@
     <title>Sierra Autos Towing | Dallas 24/7 Tow Truck & Roadside Assistance</title>
 
     <!-- SEO -->
-    <meta name="description" content="Sierra Autos provides fast, affordable 24/7 towing and roadside assistance across Dallas, Mesquite, Garland, Richardson, Plano and the entire DFW metro area. Call now for emergency towing.">
+    <meta name="description" content="Sierra Autos provides fast, affordable 24/7 towing and roadside assistance across Dallas, Mesquite, Garland, Richardson, Plano and the entire DFW metro area. Call 214-854-1734 now for emergency towing.">
     <meta name="keywords" content="Dallas towing, Mesquite towing, Garland towing, Richardson towing, Plano towing, tow truck near me, roadside assistance Dallas, emergency towing Dallas, towing service DFW">
     <meta name="author" content="Sierra Autos Towing">
 
     <!-- Social SEO -->
     <meta property="og:title" content="Sierra Autos — Dallas 24/7 Towing Service">
-    <meta property="og:description" content="Fast, reliable towing and roadside assistance available 24/7 across Dallas and the DFW metro.">
+    <meta property="og:description" content="Fast, reliable towing and roadside assistance available 24/7 across Dallas and the DFW metro. Call 214-854-1734.">
     <meta property="og:image" content="assets/Gemini_Generated_Image_7lmt1g7lmt1g7lmt.png">
     <meta property="og:type" content="website">
 
@@ -24,7 +24,7 @@
       "@type": "LocalBusiness",
       "name": "Sierra Autos Towing",
       "image": "https://georgejalloh214-source.github.io/sierra-autos-towing/assets/Gemini_Generated_Image_7lmt1g7lmt1g7lmt.png",
-      "telephone": "+1-972-948-7684",
+      "telephone": "+1-214-854-1734",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Dallas",
@@ -74,25 +74,26 @@
         <a href="tel:2148541734" class="nav-call">📞 214‑854‑1734</a>
     </nav>
 
-    <!-- HERO -->
+    <!-- HERO (3D cinematic parallax) -->
     <header class="hero">
         <div class="hero-inner">
-            <div class="hero-text">
+            <div class="hero-text hero-layer" data-depth="0.2">
                 <h1>Sierra Autos Towing — Dallas, TX</h1>
                 <h2>Fast • Reliable • 24/7 Towing & Roadside Assistance</h2>
                 <p>Serving Dallas, Mesquite, Garland, Richardson, Plano and the entire DFW metro area with professional towing and roadside assistance.</p>
 
                 <div class="contact-buttons">
-                    <a href="tel:9729487684" class="btn">Call: 972‑948‑7684</a>
+                    <a href="tel:2148541734" class="btn">Call: 214‑854‑1734</a>
+                    <a href="sms:+12148541734?body=Hi%20Sierra%20Autos%2C%20I%20need%20towing%20help." class="btn sms-btn">Text Us</a>
                     <a href="mailto:Sierraauto@yahoo.com" class="btn secondary">Email Us</a>
-                    <a href="sms:+19729487684?body=Hi%20Sierra%20Autos%2C%20I%20need%20towing%20help." class="btn sms-btn">Text Us</a>
                 </div>
             </div>
 
-            <div class="hero-image">
+            <div class="hero-image hero-layer" data-depth="0.4">
                 <img src="assets/Gemini_Generated_Image_7lmt1g7lmt1g7lmt.png" alt="Sierra Autos Tow Truck">
             </div>
         </div>
+        <div class="hero-glow hero-layer" data-depth="0.6"></div>
     </header>
 
     <!-- SERVICES -->
@@ -158,9 +159,8 @@
     <!-- GOOGLE MAPS -->
     <section class="map-section">
         <h2>Service Area — Dallas & DFW Metro</h2>
-        <p>We’re based in Dallas and serve the entire DFW metro area.</p>
+        <p>Based in Dallas, serving the entire DFW metro area.</p>
         <div class="map-container">
-            <!-- Replace src with your exact business location embed from Google Maps -->
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.002!2d-96.796987!3d32.776664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1700000000000"
                 width="600"
@@ -178,10 +178,7 @@
         <h2>What Our Customers Say</h2>
         <p>Real reviews from drivers we’ve helped on the road.</p>
         <div class="reviews-widget">
-            <!-- 
-              Embed your Google Reviews widget here from a provider like Elfsight, EmbedSocial, etc.
-              Example: paste the script tag they give you inside this div.
-            -->
+            <!-- Paste your Google Reviews widget script here from Elfsight / EmbedSocial / etc. -->
             <p>Google Reviews widget coming soon.</p>
         </div>
     </section>
@@ -192,16 +189,29 @@
         <p>Call Sierra Autos and we’ll dispatch a truck immediately.</p>
 
         <div class="contact-buttons">
-            <a href="tel:9729487684" class="btn">Call: 972‑948‑7684</a>
-            <a href="sms:+19729487684?body=Hi%20Sierra%20Autos%2C%20I%20need%20towing%20help." class="btn sms-btn">Text: 972‑948‑7684</a>
+            <a href="tel:2148541734" class="btn">Call: 214‑854‑1734</a>
+            <a href="sms:+12148541734?body=Hi%20Sierra%20Autos%2C%20I%20need%20towing%20help." class="btn sms-btn">Text: 214‑854‑1734</a>
             <a href="mailto:Sierraauto@yahoo.com" class="btn secondary">Email: Sierraauto@yahoo.com</a>
         </div>
     </section>
 
     <footer>
         <p>SIERRA AUTOS © 2026 — Dallas, TX</p>
-        <p>214‑854‑1734 · 972‑948‑7684 · Sierraauto@yahoo.com</p>
+        <p>214‑854‑1734 · Sierraauto@yahoo.com</p>
     </footer>
+
+    <!-- Simple parallax effect -->
+    <script>
+      document.addEventListener('mousemove', function(e) {
+        const layers = document.querySelectorAll('.hero-layer');
+        const x = (e.clientX / window.innerWidth - 0.5) * 2;
+        const y = (e.clientY / window.innerHeight - 0.5) * 2;
+        layers.forEach(layer => {
+          const depth = parseFloat(layer.getAttribute('data-depth') || 0);
+          layer.style.transform = `translate3d(${x * depth * 20}px, ${y * depth * 20}px, 0)`;
+        });
+      });
+    </script>
 
 </body>
 </html>
